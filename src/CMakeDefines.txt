@@ -1,0 +1,3 @@
+function(_GetType filename filetype)
+
+endfunction(_GetType)

@@ -1,0 +1,26 @@
+{
+    "Version":"3.0",
+    "ImageParameterContentArray":[
+        {
+            "Name":"EnableConfidenceFilter",
+            "FormatSpecificationNameArray":["FP_1"],
+            "ExpectedBarcodesCount":100,
+            "MaxAlgorithmThreadCount":4,
+            "BarcodeFormatIds":["BF_ONED"],
+            "TextFilterModes":["TFM_SKIP"],
+            "LocalizationModes":
+            [
+                "LM_CONNECTED_BLOCKS",
+                "LM_LINES"
+            ],
+            "DeblurLevel":2
+        }
+    ],
+    "FormatSpecificationArray":[
+        {
+            "Name":"FP_1",
+            "BarcodeFormatIds":["BF_ALL"],
+            "MinResultConfidence":60
+        }
+    ]
+}

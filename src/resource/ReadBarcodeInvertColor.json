@@ -1,0 +1,20 @@
+{
+    "Version":"3.0",
+    "ImageParameterContentArray":[
+        {
+            "Name":"both",
+            "ExpectedBarcodesCount":2,
+            "GrayscaleTransformationModes":["GTM_ORIGINAL", "GTM_INVERTED"]
+        },
+        {
+            "Name":"dark on light",
+            "ExpectedBarcodesCount":2,
+            "GrayscaleTransformationModes":["GTM_ORIGINAL"]
+        },
+        {
+            "Name":"light on dark",
+            "ExpectedBarcodesCount":2,
+            "GrayscaleTransformationModes":["GTM_INVERTED"]
+        }
+    ]
+}

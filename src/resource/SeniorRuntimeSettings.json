@@ -1,0 +1,30 @@
+{
+    "Version":"3.0",
+    "ImageParameterContentArray":[
+        {
+            "Name":"Test1",
+            "FormatSpecificationNameArray":["FP_1"],
+            "ExpectedBarcodesCount":0,
+            "MaxAlgorithmThreadCount":4,
+            "BarcodeFormatIds":["BF_ALL"],
+            "LocalizationModes":
+            [
+                "LM_CONNECTED_BLOCKS",
+                "LM_SCAN_DIRECTLY",
+                "LM_STATISTICS",
+                "LM_LINES"
+            ],
+            "BinarizationModes":[
+                "BM_LOCAL_BLOCK(20,20,1,,10)"
+            ],
+            "DeblurLevel":9
+        }
+    ],
+    "FormatSpecificationArray":[
+        {
+            "Name":"FP_1",
+            "BarcodeFormatIds":["BF_PDF417","BF_QR_CODE","BF_DATAMATRIX"],
+            "MirrorMode":"MM_Both"
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+{
+    "Version":"3.0",
+    "ImageParameterContentArray":[
+        {
+            "Name":"whole image",
+            "RegionDefinitionNameArray":["whole image"]
+        },
+        {
+            "Name":"top left",
+            "RegionDefinitionNameArray":["top left"]
+        },
+        {
+            "Name":"top center",
+            "RegionDefinitionNameArray":["top center"]
+        },
+        {
+            "Name":"top right",
+            "RegionDefinitionNameArray":["top right"]
+        },
+        {
+            "Name":"middle left",
+            "RegionDefinitionNameArray":["middle left"]
+        },
+        {
+            "Name":"center",
+            "RegionDefinitionNameArray":["center"]
+        },
+        {
+            "Name":"middle right",
+            "RegionDefinitionNameArray":["middle right"]
+        },
+        {
+            "Name":"bottom left",
+            "RegionDefinitionNameArray":["bottom left"]
+        },
+        {
+            "Name":"bottom center",
+            "RegionDefinitionNameArray":["bottom center"]
+        },
+        {
+            "Name":"bottom right",
+            "RegionDefinitionNameArray":["bottom right"]
+        }
+    ],
+    "RegionDefinitionArray":[
+        {
+            "Name":"whole image",
+            "MeasuredByPercentage":1,
+            "Top":0,
+            "Bottom":100,
+            "Left":0,
+            "Right":100
+        },
+        {
+            "Name":"top left",
+            "MeasuredByPercentage":1,
+            "Top":0,
+            "Bottom":30,
+            "Left":0,
+            "Right":30
+        },
+        {
+            "Name":"top center",
+            "MeasuredByPercentage":1,
+            "Top":0,
+            "Bottom":30,
+            "Left":30,
+            "Right":70
+        },
+        {
+            "Name":"top right",
+            "MeasuredByPercentage":1,
+            "Top":0,
+            "Bottom":30,
+            "Left":70,
+            "Right":100
+        },
+        {
+            "Name":"middle left",
+            "MeasuredByPercentage":1,
+            "Top":30,
+            "Bottom":70,
+            "Left":0,
+            "Right":30
+        },
+        {
+            "Name":"center",
+            "MeasuredByPercentage":1,
+            "Top":30,
+            "Bottom":70,
+            "Left":30,
+            "Right":70
+        },
+        {
+            "Name":"middle right",
+            "MeasuredByPercentage":1,
+            "Top":30,
+            "Bottom":70,
+            "Left":70,
+            "Right":100
+        },
+        {
+            "Name":"bottom left",
+            "MeasuredByPercentage":1,
+            "Top":70,
+            "Bottom":100,
+            "Left":0,
+            "Right":30
+        },
+        {
+            "Name":"bottom center",
+            "MeasuredByPercentage":1,
+            "Top":70,
+            "Bottom":100,
+            "Left":30,
+            "Right":70
+        },
+        {
+            "Name":"bottom right",
+            "MeasuredByPercentage":1,
+            "Top":70,
+            "Bottom":100,
+            "Left":70,
+            "Right":100
+        }
+    ]    
+}

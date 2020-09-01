@@ -1,0 +1,25 @@
+{
+    "Version":"3.0",
+    "ImageParameterContentArray":[
+        {
+            "Name":"Test1",
+            "FormatSpecificationNameArray":["FP_1"],
+            "ExpectedBarcodesCount":1,
+            "MaxAlgorithmThreadCount":4,
+            "BarcodeFormatIds":["BF_QR_CODE"],
+            "LocalizationModes":
+            [
+                "LM_SCAN_DIRECTLY(,2)"
+            ],
+            "ScaleUpModes":["SUM_SKIP"],
+            "DeblurLevel":0
+        }
+    ],
+    "FormatSpecificationArray":[
+        {
+            "Name":"FP_1",
+            "BarcodeFormatIds":["BF_QR_CODE"],
+            "MirrorMode":"MM_NORMAL"
+        }
+    ] 
+}
