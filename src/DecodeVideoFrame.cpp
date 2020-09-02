@@ -95,7 +95,7 @@ int main()
 	 
 	int iRet = -1;
 	CBarcodeReader reader;
-	iRet = reader.InitLicense("t0068MgAAAKxDFQTzokA927pXAa2ebc3URStw2pYV0SCQL0ICbD3Lmnk5dFFBpw8yILhjhiFNMlnSKXjJHIfGbTg13lV8J6M=");
+	iRet = reader.InitLicense("Put your license key here");
 	if (iRet != 0)
 	{
 		printf("%s\n", CBarcodeReader::GetErrorString(iRet));
